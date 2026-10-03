@@ -1,4 +1,4 @@
-﻿/*
+/*
 ============================================
 FairyAlliance Snap 软件说明
 版本：NET Framework 4.5
@@ -364,8 +364,7 @@ namespace CyberWin.NET.FairyAllianceSnap.CyberWinPHP.APP
         private void fa_开源地址()
         {
             string openSourceUrl = "https://gitee.com/cybersnow/CyberWin_NET_FairyAllianceSnap"; //替换你的开源地址
-            string donateUrl = "http://app.ynwlzc.net/app.php/appshow/QBQ?1=1"; //替换你的捐赠地址
-
+            
 
             string mac = MacHelper.GetFirstPhysicalMac();
             //  CyberWin_JsStandardPlugV2005 cjsv2005 = new CyberWin_JsStandardPlugV2005();
@@ -374,18 +373,13 @@ namespace CyberWin.NET.FairyAllianceSnap.CyberWinPHP.APP
             //直接静态调用，不需要new对象
             string DeviceUUid = CyberinLicHelper.Get();// 
 
-            // Public_Var.未来之窗系统sn = DeviceUUid;
-
-
-            //  string client_snv2026 = "&software=东方CyberWinCleanToolWin&client_mac=" + mac + "&client_sn=" + DeviceUUid;// mac_md5;
-            string client_snv2026 = "&software=东方CyberWinNetRepairWin&client_mac=" + mac + "&client_sn=" + DeviceUUid;// mac_md5;
-
+            
             donateUrl = donateUrl + client_snv2026;
             System.Diagnostics.Process.Start(openSourceUrl);
         }
         private void fa_东方仙盟捐款()
         {
-            string openSourceUrl = "https://gitee.com/cybersnow/CyberWin_NET_FairyAllianceSnap"; //替换你的开源地址
+            
             string donateUrl = "http://app.ynwlzc.net/app.php/appshow/QBQ?1=1"; //替换你的捐赠地址
 
 
@@ -436,12 +430,10 @@ namespace CyberWin.NET.FairyAllianceSnap.CyberWinPHP.APP
         {
             //加入内网控制
             //
-            // string url = "http://51.onelink.ynwlzc.cn/CyberWinAPI.cwas/API_CyberWinWebBrowser/" + get_SetConfig("authen_appid");
-
-            string 认证服务器 = "768B812A56693D7C683CE3CA99A515413105D743B59FC2E2D88C8B2AADFB2F67C95D68909A5C10A94BC89E68E7A06369C01E32FE198CF219675F733C25EF100C80038FBCF50A0D41";
+            
+            string 认证服务器 = "768B81FE198CF219675F733C25EF100C80038FBCF50A0D41";
             // string url = CyberWin.CSHARP.YNWLZC.WebFrame.CyberPHP.CyberSafe._Encrpt.DESEncrypt.Decrypt(认证服务器, "20225578");
-            string url = "http://51.onelink.ynwlzc.net/o2o/cpdw_api/cwp_lic_center.cwas?u=1";
-
+            
             //  Cyber_TokenKey.CL_Token cl = new Cyber_TokenKey.CL_Token();
             //  string mac_md5 = cl.getLocalMacMd5(true);
             //  string mac = cl.getLocalMac();
@@ -499,7 +491,7 @@ namespace CyberWin.NET.FairyAllianceSnap.CyberWinPHP.APP
             //   MessageBox.Show(authen_ret);
             if (authen_ret == "wlzc_fairyalliance_callhaltnotice")
             {
-                // cyber_open_signal("仙盟召唤", "http://app.ynwlzc.net/fairyalliance_callhaltnotice?client_sn" + DeviceUUid);
+                 
 
             }
 
