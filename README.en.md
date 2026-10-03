@@ -1,36 +1,29 @@
-# windows截图CyberWin FairyAllianceSnap
+# Future‑Window · FairyAllianceSnap
+> Open‑source Windows screenshot tool of CyberWin suite, built with .NET.
+![输入图片说明](dstScreenShot_2026-10-03_182534_585.jpg)
+![输入图片说明](dst/ScreenShot_2026-10-03_182456_683.jpg)
+Gitee Repo: https://gitee.com/cybersnow/CyberWin_NET_FairyAllianceSnap
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+## Introduction
+**FairyAllianceSnap** is a local screen‑capture component for Windows under the CyberWin open‑source project.
+Written in C#/.NET. You can run it as a standalone screenshot utility, or reference it as a library inside your other .NET desktop applications.
+All image processing runs locally. No screenshot data will be sent over network.
 
-#### Software Architecture
-Software architecture description
+## Features
+- Capture full‑screen, single‑window or custom selected region on Windows
+- Export screenshot to clipboard or local image file
+- Component‑oriented design for easy integration
+- Light‑weight, no extra background service
+- Open‑source code, privacy‑friendly, works on Windows10 / Windows11
 
-#### Installation
+## Architecture
+Main entry: `CyberWin_SnapApp.cs` under src folder.
+Target runtime: .NET Framework / .NET
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Installation
+### Binary Release
+Download artifacts from Releases page, unzip and run `FairyAllianceSnap.exe`.
 
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### Build from Source
+```bash
+git clone https://gitee.com/cybersnow/CyberWin_NET_FairyAllianceSnap.git
