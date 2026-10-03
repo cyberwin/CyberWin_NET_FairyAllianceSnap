@@ -1,4 +1,4 @@
-# Future‑Window · FairyAllianceSnap
+# CyberWin · FairyAllianceSnap
 > Open‑source Windows screenshot tool of CyberWin suite, built with .NET.
 ![输入图片说明](dstScreenShot_2026-10-03_182534_585.jpg)
 ![输入图片说明](dst/ScreenShot_2026-10-03_182456_683.jpg)
